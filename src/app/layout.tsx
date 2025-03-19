@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
 
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  variable: '--font-inter',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: "Jasim Zainudheen | Software Developer",
-  description: "Portfolio of Jasim Zainudheen, a fullstack developer based in Munich, Germany",
+  title: 'Jasim Zainudheen | Software Developer',
+  description:
+    'Portfolio of Jasim Zainudheen, a fullstack developer based in Munich, Germany',
 };
 
 export default function RootLayout({
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased bg-gray-900 text-gray-200`}>
+      <body
+        className={`${inter.variable} antialiased bg-gray-900 text-gray-200`}
+      >
         {children}
       </body>
     </html>
