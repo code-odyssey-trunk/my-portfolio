@@ -51,7 +51,7 @@ const Intro = () => {
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
           <Image
             className="rounded-lg object-cover border-2 border-violet-600 grayscale-50"
-            src="/m3.jpg"
+            src="/m3.JPG"
             width={100}
             height={100}
             alt="jasim_Image"
