@@ -10,7 +10,7 @@ export const workExperience: WorkExperience[] = [
     description: 'I design and develop scalable web applications for my clients, ensuring seamless user experiences and robust performance.',
   },
   {
-    profession: 'Backend Developer',
+    profession: 'Full Stack Developer',
     company: 'Oncare GmbH',
     place: 'Munich, Germany',
     date: 'May 2021 - October 2024',
