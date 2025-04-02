@@ -16,10 +16,10 @@ const Footer = () => {
         <div className="w-full lg:w-1/3 flex flex-col justify-between mb-10 lg:mb-0">
           <Link href="#intro" className="hover:animate-pulse">
             <Image
-              src="/logo.png"
+              src="/jz.png"
               alt="logo"
-              width={80}
-              height={80}
+              width={40}
+              height={40}
               loading="lazy"
             />
           </Link>
@@ -88,31 +88,31 @@ const Footer = () => {
         <div className="w-full lg:w-1/3 flex flex-col space-y-3 border-t lg:border-t-0 lg:border-l border-gray-700 pt-10 lg:pt-0 lg:pl-10 text-gray-300">
           <Link
             href="#intro"
-            className="hover:text-violet-400 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             About Me
           </Link>
           <Link
             href="#skills"
-            className="hover:text-violet-400 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             Skills
           </Link>
           <Link
             href="#journey"
-            className="hover:text-violet-400 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             My Journey
           </Link>
           <Link
             href="#contact"
-            className="hover:text-violet-400 transition-colors"
+            className="hover:text-blue-400 transition-colors"
           >
             Contact
           </Link>
         </div>
         <div className="w-full lg:w-1/3 flex flex-col space-y-3 border-t lg:border-t-0 lg:border-l border-gray-700 pt-10 lg:pt-0 lg:pl-10 text-gray-300">
-          <div className="hover:text-violet-400 transition-colors">
+          <div className="hover:text-blue-400 transition-colors">
             <FontAwesomeIcon icon={faLinkedin} className="text-blue-400" />
             <Link
               href="https://www.linkedin.com/in/jasimlz"
@@ -122,7 +122,7 @@ const Footer = () => {
               LinkedIn
             </Link>
           </div>
-          <div className="hover:text-violet-400 transition-colors">
+          <div className="hover:text-blue-400 transition-colors">
             <FontAwesomeIcon icon={faGithub} className="text-gray-400" />
             <Link
               href="https://github.com/code-odyssey-trunk?tab=repositories"
@@ -132,8 +132,8 @@ const Footer = () => {
               GitHub
             </Link>
           </div>
-          <div className="hover:text-violet-400 transition-colors">
-            <FontAwesomeIcon icon={faInstagram} className="text-violet-400" />
+          <div className="hover:text-blue-400 transition-colors">
+            <FontAwesomeIcon icon={faInstagram} className="text-blue-400" />
             <Link
               href="https://www.instagram.com/code_odyssey"
               target="_blank"
@@ -142,7 +142,7 @@ const Footer = () => {
               Instagram
             </Link>
           </div>
-          <div className="hover:text-violet-400 transition-colors">
+          <div className="hover:text-blue-400 transition-colors">
             <FontAwesomeIcon icon={faYoutube} className="text-red-400" />
             <Link
               href="https://www.youtube.com/@codeodyssey"
@@ -162,12 +162,12 @@ const Footer = () => {
             <input
               type="email"
               placeholder="Your email"
-              className="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-violet-500"
+              className="bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
             <button
               type="submit"
-              className="bg-violet-700 text-white py-2 px-4 rounded-lg text-sm hover:bg-violet-600 transition-colors"
+              className="bg-blue-700 text-white py-2 px-4 rounded-lg text-sm hover:bg-blue-600 transition-colors"
             >
               Subscribe
             </button>

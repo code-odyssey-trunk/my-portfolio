@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="w-1/2 flex items-center">
           <a href="#home">
             <Image
-              src="/logo.png"
+              src="/jz.png"
               alt="My Logo"
               width={100}
               height={100}
@@ -44,15 +44,15 @@ const Navbar = () => {
             <li className="mt-2 lg:mt-0">
               <a
                 href="#intro"
-                className="hover:text-violet-400 transition-colors"
+                className="hover:text-blue-400 transition-colors"
               >
                 About
               </a>
             </li>
             <li className="mt-2 lg:mt-0">
               <a
-                href="#skills"
-                className="hover:text-violet-400 transition-colors"
+                href="#work"
+                className="hover:text-blue-400 transition-colors"
               >
                 Skills
               </a>
@@ -60,29 +60,29 @@ const Navbar = () => {
             <li className="mt-2 lg:mt-0">
               <a
                 href="#journey"
-                className="hover:text-violet-400 transition-colors"
+                className="hover:text-blue-400 transition-colors"
               >
-                My Journey
+                Journey
               </a>
             </li>
             <li className="mt-2 lg:mt-0">
               <a
                 href="#contact"
-                className="hover:text-violet-400 transition-colors"
+                className="hover:text-blue-400 transition-colors"
               >
                 Contact
               </a>
             </li>
             <li className="lg:hidden mt-5">
               <a
-                className="px-4 py-2 bg-violet-700 text-white rounded-lg hover:bg-violet-600 transition-colors"
+                className="px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-300 transition-colors"
                 target="_blank"
                 href="/Jasim_Zainudheen_CV_SD.pdf"
               >
                 Resume
               </a>
               <a
-                className="ml-5 px-4 py-2 bg-violet-700 text-white rounded-lg hover:bg-violet-600 transition-colors"
+                className="ml-5 px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-300 transition-colors"
                 href="#contact"
               >
                 Hire Me
@@ -97,7 +97,7 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:block">
             <a
-              className="ml-15 px-4 py-2 bg-violet-700 text-white rounded-lg hover:bg-violet-600 transition-colors"
+              className="ml-15 px-4 py-2 bg-blue-400 text-black rounded-lg hover:bg-blue-300 transition-colors"
               target="_blank"
               href="/Jasim_Zainudheen_CV_SD.pdf"
             >
@@ -162,7 +162,7 @@ const Navbar = () => {
             <FontAwesomeIcon
               icon={faInstagram}
               size="1x"
-              className="text-violet-400 hover:text-violet-300 transition-colors"
+              className="text-blue-400 hover:text-blue-300 transition-colors"
             />
           </a>
           <a

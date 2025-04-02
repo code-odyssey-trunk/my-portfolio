@@ -60,7 +60,7 @@ const Contact = () => {
               Name
             </label>
             <input
-              className="w-full px-3 py-2 text-white placeholder-gray-500 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-600"
+              className="w-full px-3 py-2 text-white placeholder-gray-500 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
               type="text"
               id="name"
               name="name"
@@ -76,7 +76,7 @@ const Contact = () => {
               Email
             </label>
             <input
-              className="w-full px-3 py-2 text-white placeholder-gray-500 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-600"
+              className="w-full px-3 py-2 text-white placeholder-gray-500 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
               type="email"
               id="email"
               name="email"
@@ -92,7 +92,7 @@ const Contact = () => {
               Message
             </label>
             <textarea
-              className="w-full px-3 py-2 text-white placeholder-gray-500 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-violet-600"
+              className="w-full px-3 py-2 text-white placeholder-gray-500 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
               id="message"
               name="message"
               rows={4}
@@ -142,7 +142,7 @@ const Contact = () => {
             ) : (
               <button
                 type="submit"
-                className="bg-violet-700 text-white px-4 py-2 rounded-lg hover:bg-violet-600 transition-colors"
+                className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors"
               >
                 Send Message
               </button>

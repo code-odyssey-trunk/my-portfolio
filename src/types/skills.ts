@@ -4,10 +4,11 @@ export type SkillType = 'top' | 'normal' | 'soft';
 
 export interface Skill {
   name: string;
-  type: SkillType;
-  percentage: string;
   image: string;
   altText: string;
+  percentage: string;
+  type: SkillType;
+  experiences?: number[];  // Array of indices referencing workExperience array
 }
 
 export interface SkillCategory {

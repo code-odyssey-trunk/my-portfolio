@@ -18,7 +18,7 @@ const Journey = () => {
               className={`mb-8 flex justify-between items-center w-full ${index % 2 === 0 ? 'md:flex-row-reverse' : 'md:flex-row'} flex-col md:flex-row`}
             >
               <div className="order-1 w-full md:w-5/12"></div>
-              <div className="z-20 flex items-center order-1 bg-violet-700 shadow-xl w-8 h-8 rounded-full mx-auto md:mx-0">
+              <div className="z-20 flex items-center order-1 bg-blue-700 shadow-xl w-8 h-8 rounded-full mx-auto md:mx-0">
                 <h1 className="mx-auto font-semibold text-lg text-white">
                   {index + 1}
                 </h1>

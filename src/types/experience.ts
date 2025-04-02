@@ -7,6 +7,7 @@ export interface WorkExperience {
   date: string;
   logo: string;
   description?: string;
+  skills?: string[]
 }
 
 export interface Education {
