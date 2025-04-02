@@ -88,32 +88,32 @@ const Footer = () => {
         <div className="w-full lg:w-1/3 flex flex-col space-y-3 border-t lg:border-t-0 lg:border-l border-gray-700 pt-10 lg:pt-0 lg:pl-10 text-gray-300">
           <Link
             href="#intro"
-            className="hover:text-blue-400 transition-colors"
+            className="hover:text-blue-500 transition-colors"
           >
             About Me
           </Link>
           <Link
             href="#skills"
-            className="hover:text-blue-400 transition-colors"
+            className="hover:text-blue-500 transition-colors"
           >
             Skills
           </Link>
           <Link
             href="#journey"
-            className="hover:text-blue-400 transition-colors"
+            className="hover:text-blue-500 transition-colors"
           >
             My Journey
           </Link>
           <Link
             href="#contact"
-            className="hover:text-blue-400 transition-colors"
+            className="hover:text-blue-500 transition-colors"
           >
             Contact
           </Link>
         </div>
         <div className="w-full lg:w-1/3 flex flex-col space-y-3 border-t lg:border-t-0 lg:border-l border-gray-700 pt-10 lg:pt-0 lg:pl-10 text-gray-300">
-          <div className="hover:text-blue-400 transition-colors">
-            <FontAwesomeIcon icon={faLinkedin} className="text-blue-400" />
+          <div className="hover:text-blue-500 transition-colors">
+            <FontAwesomeIcon icon={faLinkedin} className="text-blue-500" />
             <Link
               href="https://www.linkedin.com/in/jasimlz"
               target="_blank"
@@ -122,8 +122,8 @@ const Footer = () => {
               LinkedIn
             </Link>
           </div>
-          <div className="hover:text-blue-400 transition-colors">
-            <FontAwesomeIcon icon={faGithub} className="text-gray-400" />
+          <div className="hover:text-blue-500 transition-colors">
+            <FontAwesomeIcon icon={faGithub} className="text-blue-500" />
             <Link
               href="https://github.com/code-odyssey-trunk?tab=repositories"
               target="_blank"
@@ -132,8 +132,8 @@ const Footer = () => {
               GitHub
             </Link>
           </div>
-          <div className="hover:text-blue-400 transition-colors">
-            <FontAwesomeIcon icon={faInstagram} className="text-blue-400" />
+          <div className="hover:text-blue-500 transition-colors">
+            <FontAwesomeIcon icon={faInstagram} className="text-blue-500" />
             <Link
               href="https://www.instagram.com/code_odyssey"
               target="_blank"
@@ -142,8 +142,8 @@ const Footer = () => {
               Instagram
             </Link>
           </div>
-          <div className="hover:text-blue-400 transition-colors">
-            <FontAwesomeIcon icon={faYoutube} className="text-red-400" />
+          <div className="hover:text-blue-500 transition-colors">
+            <FontAwesomeIcon icon={faYoutube} className="text-blue-500" />
             <Link
               href="https://www.youtube.com/@codeodyssey"
               target="_blank"
@@ -154,7 +154,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/3 flex flex-col space-y-3 border-t lg:border-t-0 lg:border-l border-gray-700 pt-10 lg:pt-0 lg:pl-10 text-gray-300">
-          <h3 className="font-semibold text-white mb-2">
+          <h3 className="font-semibold text-blue-500 mb-2">
             Subscribe to my newsletter
           </h3>
           <p className="text-sm mb-3">Get latest updates and insights</p>
@@ -167,7 +167,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-blue-700 text-white py-2 px-4 rounded-lg text-sm hover:bg-blue-600 transition-colors"
+              className="bg-blue-500 text-white py-2 px-4 rounded-lg text-sm hover:bg-blue-600 transition-colors"
             >
               Subscribe
             </button>
